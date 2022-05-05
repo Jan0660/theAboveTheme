@@ -1,0 +1,38 @@
+<idea-plugin>
+  <id>dev.jan0660.TheAboveTheme</id>
+  <name>The Above Theme</name>
+  <version>1.0.0</version>
+  <vendor email="jan0660@tutanota.com" url="https://jan0660.dev">Jan0660</vendor>
+
+  <description>
+    My personal blue-accented dark and light themes.
+    &lt;br/&gt;
+    &lt;h3&gt;The Above Dark "A Night of Rest"&lt;/h3&gt;
+    &lt;p&gt;&lt;br/&gt;&lt;img alt="The Above Dark - Night of Rest" src="https://raw.githubusercontent.com/Jan0660/TheAboveTheme/master/assets/Screenshot-TheAboveDark-Rider.png" width="500"/&gt;&lt;/p&gt;
+    &lt;h3&gt;The Above Light "Sky of Snow"&lt;/h3&gt;
+    &lt;p&gt;&lt;br/&gt;&lt;img alt="The Above Light - Sky of Snow" src="https://raw.githubusercontent.com/Jan0660/TheAboveTheme/master/assets/Screenshot-TheAboveLight-Rider.png" width="500"/&gt;&lt;/p&gt;
+    &lt;br/&gt;
+  </description>
+
+  <change-notes>
+    Initial release.
+  </change-notes>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
+  <idea-version since-build="211.0"/>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="6a1e6514-666b-4bcf-a56e-8150fca26f33" path="/theAboveDark.theme.json"/>
+    <themeProvider id="23a35eba-2001-4e4a-8702-8841c1759001" path="/theAboveLight.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
